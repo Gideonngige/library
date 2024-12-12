@@ -1,0 +1,39 @@
+body{
+    background-color: #354649;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .inner-container{
+    background-color: antiquewhite;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+}
+.container .inner-container h2{
+    text-align: center;
+}
+.container .inner-container input{
+    width: 95%;
+    margin-left: 10px;
+}
+.container .inner-container label{
+    margin: 10px;
+    font-weight: 900;
+}
+.container .inner-container input[type="submit"]{
+    width: 95%;
+    margin: 10px;
+    background-color:  #354649;
+    color: antiquewhite;
+    border: none;
+    font-weight: 900;
+    border-radius: 5px;
+    height: 40px;
+}
+.container .inner-container p{
+    margin: 10px;
+}

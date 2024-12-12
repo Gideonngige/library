@@ -1,0 +1,60 @@
+
+.container .inner-container{
+    background-color: antiquewhite;
+}
+body{
+    background-color: #9faeb1;
+}
+.container .inner-container .navbar-custom{
+    background-color: #354649;
+    box-shadow: 5px 5px 10px rgba(214, 208, 208, 0.5);
+}
+.nav-link{
+    color: white;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.top-books{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 2px solid  #354649;
+}
+.table .table-dark .table-color{
+    background-color: antiquewhite;
+}
+.image-btn{
+    width: 90%;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.btn-books{
+    width: 90%;
+    height: 120px;
+    margin-bottom: 10px;
+    background-color: #354649;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(214, 208, 208, 0.5);
+}
+.row{
+    margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+    .btn-books{
+        width: 300px;
+        height: 100px;
+        
+    }
+  }
+
+.btn-help{
+    background-color: black;
+    color: white;
+}
+

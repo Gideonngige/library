@@ -1,0 +1,25 @@
+body{
+    background-color: #354649;
+}
+.container{
+    background-color: antiquewhite;
+}
+.book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.book img {
+    width: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    height: 300px;
+}
+.book-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #354649;
+}
+.container h1{
+    color: #354649;
+}
